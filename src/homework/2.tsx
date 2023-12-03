@@ -1,4 +1,7 @@
-import React, {useReducer} from "react";
+
+
+import React, { useReducer } from 'react';
+import { State, Action } from './type';
 
 const initialState: State = {
   isRequestInProgress: false,
